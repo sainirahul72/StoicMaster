@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCDB3FDD1FBDF2B1004BF451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FDC1FBDF2B1004BF451 /* AppDelegate.m */; };
+		DCDB3FE01FBDF2B1004BF451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FDF1FBDF2B1004BF451 /* ViewController.m */; };
+		DCDB3FE31FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FE11FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld */; };
+		DCDB3FE51FBDF2B1004BF451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDB3FE41FBDF2B1004BF451 /* Assets.xcassets */; };
+		DCDB3FE81FBDF2B2004BF451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDB3FE61FBDF2B2004BF451 /* Main.storyboard */; };
+		DCDB3FEB1FBDF2B2004BF451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FEA1FBDF2B2004BF451 /* main.m */; };
+		DCDB3FF61FBDF2B2004BF451 /* Stoic_InvestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FF51FBDF2B2004BF451 /* Stoic_InvestingTests.m */; };
+		DCDB40011FBDF2B2004BF451 /* Stoic_InvestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB40001FBDF2B2004BF451 /* Stoic_InvestingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCDB3FF21FBDF2B2004BF451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDB3FD01FBDF2B1004BF451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDB3FD71FBDF2B1004BF451;
+			remoteInfo = "Stoic Investing";
+		};
+		DCDB3FFD1FBDF2B2004BF451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDB3FD01FBDF2B1004BF451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDB3FD71FBDF2B1004BF451;
+			remoteInfo = "Stoic Investing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCDB3FD81FBDF2B1004BF451 /* Stoic Investing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stoic Investing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDB3FDB1FBDF2B1004BF451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCDB3FDC1FBDF2B1004BF451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCDB3FDE1FBDF2B1004BF451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCDB3FDF1FBDF2B1004BF451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCDB3FE21FBDF2B1004BF451 /* Stoic_Investing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stoic_Investing.xcdatamodel; sourceTree = "<group>"; };
+		DCDB3FE41FBDF2B1004BF451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDB3FE71FBDF2B2004BF451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDB3FE91FBDF2B2004BF451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDB3FEA1FBDF2B2004BF451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCDB3FEC1FBDF2B2004BF451 /* Stoic_Investing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stoic_Investing.entitlements; sourceTree = "<group>"; };
+		DCDB3FF11FBDF2B2004BF451 /* Stoic InvestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stoic InvestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDB3FF51FBDF2B2004BF451 /* Stoic_InvestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stoic_InvestingTests.m; sourceTree = "<group>"; };
+		DCDB3FF71FBDF2B2004BF451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDB3FFC1FBDF2B2004BF451 /* Stoic InvestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stoic InvestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDB40001FBDF2B2004BF451 /* Stoic_InvestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stoic_InvestingUITests.m; sourceTree = "<group>"; };
+		DCDB40021FBDF2B2004BF451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDB3FD51FBDF2B1004BF451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB3FEE1FBDF2B2004BF451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB3FF91FBDF2B2004BF451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCDB3FCF1FBDF2B1004BF451 = {
+			isa = PBXGroup;
+			children = (
+				DCDB3FDA1FBDF2B1004BF451 /* Stoic Investing */,
+				DCDB3FF41FBDF2B2004BF451 /* Stoic InvestingTests */,
+				DCDB3FFF1FBDF2B2004BF451 /* Stoic InvestingUITests */,
+				DCDB3FD91FBDF2B1004BF451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDB3FD91FBDF2B1004BF451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB3FD81FBDF2B1004BF451 /* Stoic Investing.app */,
+				DCDB3FF11FBDF2B2004BF451 /* Stoic InvestingTests.xctest */,
+				DCDB3FFC1FBDF2B2004BF451 /* Stoic InvestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDB3FDA1FBDF2B1004BF451 /* Stoic Investing */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB3FDB1FBDF2B1004BF451 /* AppDelegate.h */,
+				DCDB3FDC1FBDF2B1004BF451 /* AppDelegate.m */,
+				DCDB3FDE1FBDF2B1004BF451 /* ViewController.h */,
+				DCDB3FDF1FBDF2B1004BF451 /* ViewController.m */,
+				DCDB3FE41FBDF2B1004BF451 /* Assets.xcassets */,
+				DCDB3FE61FBDF2B2004BF451 /* Main.storyboard */,
+				DCDB3FE91FBDF2B2004BF451 /* Info.plist */,
+				DCDB3FEA1FBDF2B2004BF451 /* main.m */,
+				DCDB3FEC1FBDF2B2004BF451 /* Stoic_Investing.entitlements */,
+				DCDB3FE11FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld */,
+			);
+			path = "Stoic Investing";
+			sourceTree = "<group>";
+		};
+		DCDB3FF41FBDF2B2004BF451 /* Stoic InvestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB3FF51FBDF2B2004BF451 /* Stoic_InvestingTests.m */,
+				DCDB3FF71FBDF2B2004BF451 /* Info.plist */,
+			);
+			path = "Stoic InvestingTests";
+			sourceTree = "<group>";
+		};
+		DCDB3FFF1FBDF2B2004BF451 /* Stoic InvestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB40001FBDF2B2004BF451 /* Stoic_InvestingUITests.m */,
+				DCDB40021FBDF2B2004BF451 /* Info.plist */,
+			);
+			path = "Stoic InvestingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDB3FD71FBDF2B1004BF451 /* Stoic Investing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDB40051FBDF2B2004BF451 /* Build configuration list for PBXNativeTarget "Stoic Investing" */;
+			buildPhases = (
+				DCDB3FD41FBDF2B1004BF451 /* Sources */,
+				DCDB3FD51FBDF2B1004BF451 /* Frameworks */,
+				DCDB3FD61FBDF2B1004BF451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stoic Investing";
+			productName = "Stoic Investing";
+			productReference = DCDB3FD81FBDF2B1004BF451 /* Stoic Investing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCDB3FF01FBDF2B2004BF451 /* Stoic InvestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDB40081FBDF2B2004BF451 /* Build configuration list for PBXNativeTarget "Stoic InvestingTests" */;
+			buildPhases = (
+				DCDB3FED1FBDF2B2004BF451 /* Sources */,
+				DCDB3FEE1FBDF2B2004BF451 /* Frameworks */,
+				DCDB3FEF1FBDF2B2004BF451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDB3FF31FBDF2B2004BF451 /* PBXTargetDependency */,
+			);
+			name = "Stoic InvestingTests";
+			productName = "Stoic InvestingTests";
+			productReference = DCDB3FF11FBDF2B2004BF451 /* Stoic InvestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCDB3FFB1FBDF2B2004BF451 /* Stoic InvestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDB400B1FBDF2B2004BF451 /* Build configuration list for PBXNativeTarget "Stoic InvestingUITests" */;
+			buildPhases = (
+				DCDB3FF81FBDF2B2004BF451 /* Sources */,
+				DCDB3FF91FBDF2B2004BF451 /* Frameworks */,
+				DCDB3FFA1FBDF2B2004BF451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDB3FFE1FBDF2B2004BF451 /* PBXTargetDependency */,
+			);
+			name = "Stoic InvestingUITests";
+			productName = "Stoic InvestingUITests";
+			productReference = DCDB3FFC1FBDF2B2004BF451 /* Stoic InvestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDB3FD01FBDF2B1004BF451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Stoic Investing";
+				TargetAttributes = {
+					DCDB3FD71FBDF2B1004BF451 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DCDB3FF01FBDF2B2004BF451 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCDB3FD71FBDF2B1004BF451;
+					};
+					DCDB3FFB1FBDF2B2004BF451 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCDB3FD71FBDF2B1004BF451;
+					};
+				};
+			};
+			buildConfigurationList = DCDB3FD31FBDF2B1004BF451 /* Build configuration list for PBXProject "Stoic Investing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDB3FCF1FBDF2B1004BF451;
+			productRefGroup = DCDB3FD91FBDF2B1004BF451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDB3FD71FBDF2B1004BF451 /* Stoic Investing */,
+				DCDB3FF01FBDF2B2004BF451 /* Stoic InvestingTests */,
+				DCDB3FFB1FBDF2B2004BF451 /* Stoic InvestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDB3FD61FBDF2B1004BF451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB3FE51FBDF2B1004BF451 /* Assets.xcassets in Resources */,
+				DCDB3FE81FBDF2B2004BF451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB3FEF1FBDF2B2004BF451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB3FFA1FBDF2B2004BF451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDB3FD41FBDF2B1004BF451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB3FE01FBDF2B1004BF451 /* ViewController.m in Sources */,
+				DCDB3FDD1FBDF2B1004BF451 /* AppDelegate.m in Sources */,
+				DCDB3FEB1FBDF2B2004BF451 /* main.m in Sources */,
+				DCDB3FE31FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB3FED1FBDF2B2004BF451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB3FF61FBDF2B2004BF451 /* Stoic_InvestingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB3FF81FBDF2B2004BF451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB40011FBDF2B2004BF451 /* Stoic_InvestingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCDB3FF31FBDF2B2004BF451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDB3FD71FBDF2B1004BF451 /* Stoic Investing */;
+			targetProxy = DCDB3FF21FBDF2B2004BF451 /* PBXContainerItemProxy */;
+		};
+		DCDB3FFE1FBDF2B2004BF451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDB3FD71FBDF2B1004BF451 /* Stoic Investing */;
+			targetProxy = DCDB3FFD1FBDF2B2004BF451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCDB3FE61FBDF2B2004BF451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDB3FE71FBDF2B2004BF451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCDB40031FBDF2B2004BF451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCDB40041FBDF2B2004BF451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCDB40061FBDF2B2004BF451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stoic Investing/Stoic_Investing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stoic Investing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StoicInvesting.Stoic-Investing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCDB40071FBDF2B2004BF451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stoic Investing/Stoic_Investing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stoic Investing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StoicInvesting.Stoic-Investing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCDB40091FBDF2B2004BF451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stoic InvestingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StoicInvesting.Stoic-InvestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stoic Investing.app/Contents/MacOS/Stoic Investing";
+			};
+			name = Debug;
+		};
+		DCDB400A1FBDF2B2004BF451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stoic InvestingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StoicInvesting.Stoic-InvestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stoic Investing.app/Contents/MacOS/Stoic Investing";
+			};
+			name = Release;
+		};
+		DCDB400C1FBDF2B2004BF451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stoic InvestingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StoicInvesting.Stoic-InvestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stoic Investing";
+			};
+			name = Debug;
+		};
+		DCDB400D1FBDF2B2004BF451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stoic InvestingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StoicInvesting.Stoic-InvestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stoic Investing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDB3FD31FBDF2B1004BF451 /* Build configuration list for PBXProject "Stoic Investing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB40031FBDF2B2004BF451 /* Debug */,
+				DCDB40041FBDF2B2004BF451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDB40051FBDF2B2004BF451 /* Build configuration list for PBXNativeTarget "Stoic Investing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB40061FBDF2B2004BF451 /* Debug */,
+				DCDB40071FBDF2B2004BF451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDB40081FBDF2B2004BF451 /* Build configuration list for PBXNativeTarget "Stoic InvestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB40091FBDF2B2004BF451 /* Debug */,
+				DCDB400A1FBDF2B2004BF451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDB400B1FBDF2B2004BF451 /* Build configuration list for PBXNativeTarget "Stoic InvestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB400C1FBDF2B2004BF451 /* Debug */,
+				DCDB400D1FBDF2B2004BF451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCDB3FE11FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCDB3FE21FBDF2B1004BF451 /* Stoic_Investing.xcdatamodel */,
+			);
+			currentVersion = DCDB3FE21FBDF2B1004BF451 /* Stoic_Investing.xcdatamodel */;
+			path = Stoic_Investing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCDB3FD01FBDF2B1004BF451 /* Project object */;
+}

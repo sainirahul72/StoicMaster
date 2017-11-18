@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
-
-
+@property (strong) IBOutlet NSButton *loginButton;
+@property (strong) IBOutlet NSTextField *userName;
+@property (strong) IBOutlet NSSecureTextField *password;
 @end
 

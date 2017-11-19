@@ -15,6 +15,7 @@
 		DC1463741FC050D900FCB031 /* SILevel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1463731FC050D900FCB031 /* SILevel.m */; };
 		DC1463771FC0516F00FCB031 /* SIModules.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1463761FC0516F00FCB031 /* SIModules.m */; };
 		DC14637A1FC0525B00FCB031 /* SIContents.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1463791FC0525B00FCB031 /* SIContents.m */; };
+		DC14637E1FC1D61900FCB031 /* MainContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC14637D1FC1D61900FCB031 /* MainContentController.m */; };
 		DCDB3FDD1FBDF2B1004BF451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FDC1FBDF2B1004BF451 /* AppDelegate.m */; };
 		DCDB3FE01FBDF2B1004BF451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FDF1FBDF2B1004BF451 /* ViewController.m */; };
 		DCDB3FE31FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCDB3FE11FBDF2B1004BF451 /* Stoic_Investing.xcdatamodeld */; };
@@ -58,6 +59,8 @@
 		DC1463761FC0516F00FCB031 /* SIModules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIModules.m; sourceTree = "<group>"; };
 		DC1463781FC0525B00FCB031 /* SIContents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIContents.h; sourceTree = "<group>"; };
 		DC1463791FC0525B00FCB031 /* SIContents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIContents.m; sourceTree = "<group>"; };
+		DC14637C1FC1D61900FCB031 /* MainContentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainContentController.h; sourceTree = "<group>"; };
+		DC14637D1FC1D61900FCB031 /* MainContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainContentController.m; sourceTree = "<group>"; };
 		DCDB3FD81FBDF2B1004BF451 /* Stoic Investing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stoic Investing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDB3FDB1FBDF2B1004BF451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCDB3FDC1FBDF2B1004BF451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				DCDB3FDC1FBDF2B1004BF451 /* AppDelegate.m */,
 				DCDB3FDE1FBDF2B1004BF451 /* ViewController.h */,
 				DCDB3FDF1FBDF2B1004BF451 /* ViewController.m */,
+				DC14637C1FC1D61900FCB031 /* MainContentController.h */,
+				DC14637D1FC1D61900FCB031 /* MainContentController.m */,
 				DCDB3FE41FBDF2B1004BF451 /* Assets.xcassets */,
 				DCDB3FE61FBDF2B2004BF451 /* Main.storyboard */,
 				DCDB3FE91FBDF2B2004BF451 /* Info.plist */,
@@ -323,6 +328,7 @@
 			files = (
 				DCDB3FE01FBDF2B1004BF451 /* ViewController.m in Sources */,
 				DC1463771FC0516F00FCB031 /* SIModules.m in Sources */,
+				DC14637E1FC1D61900FCB031 /* MainContentController.m in Sources */,
 				DCDB3FDD1FBDF2B1004BF451 /* AppDelegate.m in Sources */,
 				DCDB3FEB1FBDF2B2004BF451 /* main.m in Sources */,
 				DC1463671FC043C700FCB031 /* NSDictionary+UrlEncoding.m in Sources */,

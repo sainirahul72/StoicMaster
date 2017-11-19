@@ -9,8 +9,8 @@
 #import "APIConnection.h"
 #import "NSDictionary+UrlEncoding.h"
 
-#define YTWeakSelf __typeof(self) __weak weakSelf = self;
-#define YTBlockSelf __typeof(weakSelf) __weak blockSelf = weakSelf;
+#define WeakSelf __typeof(self) __weak weakSelf = self;
+#define BlockSelf __typeof(weakSelf) __weak blockSelf = weakSelf;
 
 @interface APIConnection()<NSURLSessionDelegate>
 @property (nonatomic, strong) NSURLSessionConfiguration * sessionConfig;
@@ -53,7 +53,7 @@
     } else {
         postParamsCopy = [NSMutableDictionary dictionary];
     }
-    YTWeakSelf
+    WeakSelf
     NSData *httpBody = [NSJSONSerialization dataWithJSONObject:postParamsCopy options:0 error:nil];
     [request setHTTPBody:httpBody];
     
@@ -61,7 +61,7 @@
     myString = [[NSString alloc] initWithData:httpBody encoding:NSASCIIStringEncoding];
     NSLog(@"Request Started: %@ params:%@", request, myString);
     NSURLSessionTask * task = [self.session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        YTBlockSelf
+        BlockSelf
         [blockSelf handleResponseData:data urlResponse:response forRequest:request apiError:error completionHandler:completionHandler];
     }];
     
